@@ -1,0 +1,108 @@
+/* Font + base layout */
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f5f9ff;
+    margin: 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.resume-container {
+    background: #ffffff;
+    width: 75%;
+    max-width: 900px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(100, 140, 200, 0.15);
+    border: 1px solid #dbe8ff;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: #1a3f6b;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+header .contact {
+    font-size: 0.95rem;
+    color: #476c95;
+}
+
+/* Section titles */
+.section h2 {
+    color: #1a3f6b;
+    border-bottom: 2px solid #a5c7ff;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* Items */
+.item {
+    margin-bottom: 22px;
+}
+
+.item h3 {
+    margin: 0;
+    font-size: 1.15rem;
+    color: #2b4d77;
+    font-weight: 600;
+}
+
+.subtitle {
+    color: #4c6f95;
+    margin: 2px 0 6px 0;
+    font-size: 0.95rem;
+}
+
+.date {
+    float: right;
+    color: #6c8bb5;
+    font-weight: 500;
+}
+
+.item p {
+    font-size: 0.95rem;
+    color: #4b6285;
+    margin-top: 6px;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 0.95rem;
+    color: #4b6285;
+    margin-bottom: 6px;
+}
+
+/* Skills grid */
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #e7f1ff;
+    border: 1px solid #cfe1ff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-align: center;
+    color: #1f3f6a;
+    font-size: 0.9rem;
+    font-weight: 500;
+}

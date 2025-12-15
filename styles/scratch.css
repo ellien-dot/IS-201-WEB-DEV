@@ -1,0 +1,43 @@
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    font: size 70px;
+    color:black;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font: size 40px;
+    color:gray;
+    font-style: italic;
+}
+
+.header{
+    bottom: 10px;
+    height: 110px;
+    left: 15px;
+    right: 25px;
+    background-color: lightslategray;
+    border: 5px solid white;
+    z-index: 10;
+}
+
+.center{
+    text-align: center;
+}
+
+.body{
+    background-color: lightslategray;
+    border: 5px solid white;
+}
+
+.video{
+    color: white;
+}
+
+.bodytext{
+    font-family: "Poppins", sans-serif;
+}
